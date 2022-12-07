@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+}
+article {
+  font-size: 1.25rem;
+  color: white;
+  transition: all 250ms;
+}
+.btn_styles {
+  margin: 0rem 0.25rem;
+  background-color: black;
+  border: none;
+  cursor: grab;
+}
+.btn_styles:active {
+  cursor: grabbing;
+}
+
+.not__selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
